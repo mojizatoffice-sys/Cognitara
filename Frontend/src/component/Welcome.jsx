@@ -31,7 +31,7 @@ export function BrandMark({ theme = "light" }) {
       </span>
     </div>
   );
-})
+}
 
 /**
  * Welcome
@@ -46,7 +46,7 @@ export default function Welcome({ variant = "desktop", onLogin, onSignup }) {
 
   if (variant === "mobile") {
     return (
-      <div className="relative w-full h-full flex flex-col justify-between">
+        <div className="relative w-full h-full flex flex-col justify-between">
         <div className="pt-2">
           <BrandMark theme="light" />
         </div>
