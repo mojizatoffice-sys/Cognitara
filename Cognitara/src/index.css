@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+/* ===================================================
+   EMOTIONAL EDUCATION APP - MOOD THEMES
+   =================================================== */
+
+/* --- Default: Calm & Serene --- */
+:root, [data-theme="calm"] {
+  --bg-app: #f4f7f5;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #e8f0ec;
+
+  --text-primary: #1f2d24;
+  --text-secondary: #526658;
+  --text-muted: #839989;
+
+  --accent-primary: #3b7a57;
+  --accent-primary-hover: #2e6044;
+  --accent-secondary: #8ba888;
+  --accent-soft: #d8e6db;
+
+  --border-subtle: #dbe4dd;
+  --border-strong: #adc2b1;
+  
+  --shadow-color: rgba(31, 45, 36, 0.06);
+}
+
+/* --- Warm & Comforting --- */
+[data-theme="comfort"] {
+  --bg-app: #faf5f0;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #f3e9df;
+
+  --text-primary: #3d2b1f;
+  --text-secondary: #6e5444;
+  --text-muted: #a08472;
+
+  --accent-primary: #b85b32;
+  --accent-primary-hover: #964825;
+  --accent-secondary: #d99b73;
+  --accent-soft: #f7e2d3;
+
+  --border-subtle: #ebdcd0;
+  --border-strong: #d4b8a3;
+
+  --shadow-color: rgba(61, 43, 31, 0.06);
+}
+
+/* --- Grounded & Focused --- */
+[data-theme="grounded"] {
+  --bg-app: #f2f3f0;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #e3e6df;
+
+  --text-primary: #1c241b;
+  --text-secondary: #4a5448;
+  --text-muted: #7c877a;
+
+  --accent-primary: #2d5a27;
+  --accent-primary-hover: #21451d;
+  --accent-secondary: #688f61;
+  --accent-soft: #d4e3d1;
+
+  --border-subtle: #d8ded5;
+  --border-strong: #aab5a6;
+
+  --shadow-color: rgba(28, 36, 27, 0.06);
+}
+
+/* --- Energizing & Joyful --- */
+[data-theme="energizing"] {
+  --bg-app: #fffbf2;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #fef0d2;
+
+  --text-primary: #362305;
+  --text-secondary: #694b1a;
+  --text-muted: #9e7a43;
+
+  --accent-primary: #d97706;
+  --accent-primary-hover: #b45309;
+  --accent-secondary: #f59e0b;
+  --accent-soft: #fef3c7;
+
+  --border-subtle: #fbe6b8;
+  --border-strong: #f4c26b;
+
+  --shadow-color: rgba(54, 35, 5, 0.06);
+}
+
+/* --- Deep Reflective (Dark Mode) --- */
+[data-theme="reflective"] {
+  --bg-app: #0f141c;
+  --bg-surface: #171e2b;
+  --bg-surface-elevated: #212b3d;
+
+  --text-primary: #f0f4f8;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  --accent-primary: #a855f7;
+  --accent-primary-hover: #9333ea;
+  --accent-secondary: #c084fc;
+  --accent-soft: #2e1065;
+
+  --border-subtle: #1e293b;
+  --border-strong: #334155;
+
+  --shadow-color: rgba(0, 0, 0, 0.35);
+}
